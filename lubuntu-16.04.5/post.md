@@ -29,19 +29,7 @@ At the moment, encrypted LVM installs do not work with Lubuntu due to Ubiquity n
 
 [Here](https://bugs.launchpad.net/ubuntu/+source/partman-crypto/+bug/1759732) is the bug report if you would like the full technical details.
 
-As a workaround, you can edit line 158 of `/lib/partman/lib/crypto-base.sh` in a live Lubuntu system as follows:
-
-```
- 	for swap in $(cat /proc/swaps); do
- 		case $swap in
--		    Filename*)
-+		    Filename*|/dev/zram*)
- 			continue
- 			;;
- 		    /dev/mapper/*)
-```
-
-Or, you can run `sudo swapoff -a` before installing.
+As a workaround, you can edit line 158 of `/lib/partman/lib/crypto-base.sh` in a live Lubuntu system replacing `Filename*)` with `Filename*|/dev/zram*)`. Or, you can run `sudo swapoff -a` before installing.
 
 We apologize for the inconvenience; we're exploring different solutions to solve this.
 
