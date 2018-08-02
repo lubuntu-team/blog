@@ -1,0 +1,99 @@
+#!/usr/bin/env python3
+
+# Copyright (C) 2018 Lubuntu Team
+# Authored by: Simon Quigley <tsimonq2@lubuntu.me>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import sys
+import yaml
+from os import path
+from markdown import markdown
+from wordpress_xmlrpc import Client
+from wordpress_xmlrpc.methods import posts
+
+def getdirectories(args):
+    directories = []
+    for directory in args:
+        if path.isdir(directory) and path.exists(directory+"/info.yaml") and path.exists(directory+"/post.md"):
+            directories.append(directory)
+
+    return directories
+
+def loadwp():
+    user = open("user.yaml", "r")
+    userinfo = yaml.load(user, Loader=yaml.CSafeLoader)
+    wp = Client(url=userinfo["url"], username=userinfo["username"], password=userinfo["password"])
+    user.close()
+
+    return wp
+
+def loadposts():
+    wp = loadwp()
+
+    offset = 0
+    increment = 10
+    wpposts = []
+    while True:
+        wppostlist = wp.call(posts.GetPosts({'number': increment, 'offset': offset}))
+        if len(wppostlist) == 0:
+            break
+        for post in wppostlist:
+            wpposts.append(post)
+        offset = offset + increment
+
+    return wpposts
+
+def updatepost(infoyaml, md, post=None, title=None, slug=None):
+    wp = loadwp()
+    if not post:
+        post = WordPressPost()
+        post.id = wp.call(posts.NewPost(post))
+    if not title:
+        title = infoyaml["title"]
+    if not slug:
+        slug = infoyaml["slug"]
+
+    post.title = title
+    post.content = md
+    post.post_status = "publish"
+    wp.call(posts.EditPost(post.id, post))
+
+def main():
+    posts = loadposts()
+    for directory in getdirectories(sys.argv[1:]):
+        info = open(directory+"/info.yaml", "r")
+        infoyaml = yaml.load(info, Loader=yaml.CSafeLoader)
+        info.close()
+
+        mdf = open(directory+"/post.md", "r", encoding="utf-8")
+        mdt = mdf.read()
+        md = markdown(text=mdt)
+        mdf.close()
+
+        post = None
+        for post in posts:
+            if post.title == infoyaml["title"]:
+                updatepost(post=post, title=post.title, infoyaml=infoyaml, md=md)
+                post = True
+                break
+            elif post.slug == infoyaml["slug"]:
+                updatepost(post=post, slug=post.slug, infoyaml=infoyaml, md=md)
+                post = True
+                break
+        if not post:
+            updatepost(infoyaml=infoyaml, md=md)
+
+if __name__ == "__main__":
+    main()

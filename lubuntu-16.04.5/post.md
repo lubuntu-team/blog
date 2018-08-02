@@ -32,8 +32,6 @@ At the moment, encrypted LVM installs do not work with Lubuntu due to Ubiquity n
 As a workaround, you can edit line 158 of `/lib/partman/lib/crypto-base.sh` in a live Lubuntu system as follows:
 
 ```
-@@ -154,7 +154,7 @@
- 
  	for swap in $(cat /proc/swaps); do
  		case $swap in
 -		    Filename*)
