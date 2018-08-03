@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+
+# Copyright (C) 2018 Lubuntu Team
+# Authored by: Simon Quigley <tsimonq2@lubuntu.me>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import sys
+import yaml
+from os import path
+from os import makedirs
+from os import remove
+from markdown import markdown
+
+def getdirectories(args):
+    directories = []
+    for directory in args:
+        if path.isdir(directory) and path.exists(directory+"/info.yaml") and path.exists(directory+"/post.md"):
+            directories.append(directory)
+
+    return directories
+
+def main():
+    if not path.exists("l10n"):
+        makedirs("l10n")
+
+    for directory in getdirectories(sys.argv[1:]):
+        info = open(directory+"/info.yaml", "r", encoding="utf-8")
+        infoyaml = yaml.load(info, Loader=yaml.CSafeLoader)
+        info.close()
+
+        slugdir = "l10n/" + infoyaml["slug"] + "/"
+        if not path.exists(slugdir):
+            makedirs(slugdir)
+        for lang in infoyaml["l10n"]:
+            if not path.exists(slugdir + lang):
+                makedirs(slugdir + lang)
+            if path.exists(slugdir + lang + "index.html"):
+                remove(slugdir + lang + "index.html")
+
+            mdf = open(directory + "/l10n/" + lang + ".md", "r", encoding="utf-8")
+            mdt = mdf.read()
+            md = markdown(text=mdt)
+            mdf.close()
+
+            html = open("l10n-template.html", "r", encoding="utf-8")
+            htmltext = html.read()
+            translatedtext = htmltext.replace("POSTCONTENT", md)
+            translatedtext = translatedtext.replace("TITLE", infoyaml["title"].replace("POUND", "#"))
+            translatedtext = translatedtext.replace("SLUG", infoyaml["slug"])
+
+            l10nfile = open(slugdir + lang + "/index.html", "w")
+            l10nfile.write(translatedtext)
+            l10nfile.close()
+
+if __name__ == "__main__":
+    main()

@@ -75,7 +75,7 @@ def updatepost(infoyaml, md, post=None, title=None, slug=None):
 def main():
     posts = loadposts()
     for directory in getdirectories(sys.argv[1:]):
-        info = open(directory+"/info.yaml", "r")
+        info = open(directory+"/info.yaml", "r", encoding="utf-8")
         infoyaml = yaml.load(info, Loader=yaml.CSafeLoader)
         info.close()
 
