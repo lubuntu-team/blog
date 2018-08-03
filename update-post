@@ -86,7 +86,6 @@ def updatepost(infoyaml, md, post=None, title=None, slug=None):
     else:
         md = md.replace("NOTICE", "<!--more-->")
 
-    print(md)
     post.title = title
     post.content = md
     post.post_status = "publish"
@@ -99,7 +98,7 @@ def updatepost(infoyaml, md, post=None, title=None, slug=None):
 
     post.terms = tags
 
-    #wp.call(posts.EditPost(post.id, post))
+    wp.call(posts.EditPost(post.id, post))
 
 def main():
     posts = loadposts()
