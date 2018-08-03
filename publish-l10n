@@ -35,34 +35,38 @@ def main():
     if not path.exists("l10n"):
         makedirs("l10n")
 
-    for directory in getdirectories(sys.argv[1:]):
-        info = open(directory+"/info.yaml", "r", encoding="utf-8")
-        infoyaml = yaml.load(info, Loader=yaml.CSafeLoader)
-        info.close()
+    with open("post-list") as posts:
+        for directory in posts:
+            directory = directory.strip("\n")
+            if path.exists(directory + "/info.yaml"):
+                info = open(directory + "/info.yaml", "r", encoding="utf-8")
+                infoyaml = yaml.load(info, Loader=yaml.CSafeLoader)
+                info.close()
 
-        slugdir = "l10n/" + infoyaml["slug"] + "/"
-        if not path.exists(slugdir):
-            makedirs(slugdir)
-        for lang in infoyaml["l10n"]:
-            if not path.exists(slugdir + lang):
-                makedirs(slugdir + lang)
-            if path.exists(slugdir + lang + "index.html"):
-                remove(slugdir + lang + "index.html")
+                slugdir = "l10n/" + infoyaml["slug"] + "/"
+                if not path.exists(slugdir):
+                    makedirs(slugdir)
+                if "l10n" in infoyaml:
+                    for lang in infoyaml["l10n"]:
+                        if not path.exists(slugdir + lang):
+                            makedirs(slugdir + lang)
+                        if path.exists(slugdir + lang + "index.html"):
+                            remove(slugdir + lang + "index.html")
 
-            mdf = open(directory + "/l10n/" + lang + ".md", "r", encoding="utf-8")
-            mdt = mdf.read()
-            md = markdown(text=mdt)
-            mdf.close()
+                        mdf = open(directory + "/l10n/" + lang + ".md", "r", encoding="utf-8")
+                        mdt = mdf.read()
+                        md = markdown(text=mdt)
+                        mdf.close()
 
-            html = open("l10n-template.html", "r", encoding="utf-8")
-            htmltext = html.read()
-            translatedtext = htmltext.replace("POSTCONTENT", md)
-            translatedtext = translatedtext.replace("TITLE", infoyaml["title"].replace("POUND", "#"))
-            translatedtext = translatedtext.replace("SLUG", infoyaml["slug"])
+                        html = open("l10n-template.html", "r", encoding="utf-8")
+                        htmltext = html.read()
+                        translatedtext = htmltext.replace("POSTCONTENT", md)
+                        translatedtext = translatedtext.replace("TITLE", infoyaml["title"].replace("POUND", "#"))
+                        translatedtext = translatedtext.replace("SLUG", infoyaml["slug"])
 
-            l10nfile = open(slugdir + lang + "/index.html", "w")
-            l10nfile.write(translatedtext)
-            l10nfile.close()
+                        l10nfile = open(slugdir + lang + "/index.html", "w")
+                        l10nfile.write(translatedtext)
+                        l10nfile.close()
 
 if __name__ == "__main__":
     main()
