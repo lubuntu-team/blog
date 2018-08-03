@@ -1,5 +1,7 @@
 Here is the second issue of This Week in Lubuntu Development. You can read last week's issue [here](https://lubuntu.me/this-week-in-lubuntu-development-1/).
 
+NOTICE
+
 # Changes
 
 ## General

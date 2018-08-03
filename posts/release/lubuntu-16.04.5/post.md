@@ -1,6 +1,7 @@
 Thanks to all the hard work from our contributors, we are pleased to announce that Lubuntu 16.04.5 LTS has been released!
 
-<!--more-->
+NOTICE
+
 # What is Lubuntu?
 Lubuntu is an official Ubuntu flavor which uses the Lightweight X11 Desktop Environment (LXDE). The project’s goal is to provide a lightweight yet functional Linux distribution based on a rock solid Ubuntu base. Lubuntu specifically targets older machines with lower resources, but also runs great on newer hardware. Along with a simple but usable graphical user interface, Lubuntu comes with a wide variety of applications chosen for their small footprint so you can browse, email, chat, play, and be productive.
 

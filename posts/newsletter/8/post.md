@@ -1,6 +1,6 @@
 Here is the eighth issue of This Week in Lubuntu Development. You can read the last issue [here](https://lubuntu.me/this-week-in-lubuntu-development-7/).
 
-<!--more-->
+NOTICE
 
 # Changes
 

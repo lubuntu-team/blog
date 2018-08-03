@@ -19,6 +19,7 @@
 import sys
 import yaml
 from os import path
+from babel import Locale
 from markdown import markdown
 from wordpress_xmlrpc import Client
 from wordpress_xmlrpc.methods import posts
@@ -68,6 +69,24 @@ def updatepost(infoyaml, md, post=None, title=None, slug=None):
 
     title = title.replace("POUND", "#")
 
+    if "l10n" in infoyaml:
+        l10nstr = ""
+        for lang in infoyaml["l10n"]:
+            try:
+                locale = Locale(lang)
+            except:
+                break
+            langname = locale.display_name
+            if l10nstr != "":
+                l10nstr = l10nstr + ", "
+            else:
+                l10nstr = "Translated into: "
+            l10nstr = l10nstr + "<a href=\"https://l10n.lubuntu.me/" + infoyaml["slug"] + "/" + lang + "/\">" + langname + "</a>"
+        md = md.replace("NOTICE", "<!--more-->\n\n" + l10nstr)
+    else:
+        md = md.replace("NOTICE", "<!--more-->")
+
+    print(md)
     post.title = title
     post.content = md
     post.post_status = "publish"
@@ -80,7 +99,7 @@ def updatepost(infoyaml, md, post=None, title=None, slug=None):
 
     post.terms = tags
 
-    wp.call(posts.EditPost(post.id, post))
+    #wp.call(posts.EditPost(post.id, post))
 
 def main():
     posts = loadposts()

@@ -1,5 +1,7 @@
 Here is the seventh issue of This Week in Lubuntu Development. You can read the last issue [here](https://lubuntu.me/this-week-in-lubuntu-development-6/).
 
+NOTICE
+
 # Changes
 
 ## General
