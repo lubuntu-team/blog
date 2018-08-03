@@ -22,6 +22,7 @@ from os import path
 from markdown import markdown
 from wordpress_xmlrpc import Client
 from wordpress_xmlrpc.methods import posts
+from wordpress_xmlrpc.methods import taxonomies
 
 def getdirectories(args):
     directories = []
@@ -70,6 +71,15 @@ def updatepost(infoyaml, md, post=None, title=None, slug=None):
     post.title = title
     post.content = md
     post.post_status = "publish"
+
+    tags = []
+    for category in wp.call(taxonomies.GetTerms('category')):
+        for posttype in infoyaml["type"]:
+            if category.name == posttype:
+                tags.append(category)
+
+    post.terms = tags
+
     wp.call(posts.EditPost(post.id, post))
 
 def main():
