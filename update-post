@@ -82,9 +82,11 @@ def updatepost(infoyaml, md, post=None, title=None, slug=None):
             else:
                 l10nstr = "Translated into: "
             l10nstr = l10nstr + "<a href=\"https://l10n.lubuntu.me/" + infoyaml["slug"] + "/" + lang + "/\">" + langname + "</a>"
-        md = md.replace("NOTICE", "<!--more-->\n\n" + l10nstr)
+        message = "<!--more-->\n\n" + l10nstr
     else:
-        md = md.replace("NOTICE", "<!--more-->")
+        message = "<!--more-->"
+    md = md.replace("NOTICE", message)
+    md = md.replace("<p>"+message+"</p>", message)
 
     post.title = title
     post.content = md
