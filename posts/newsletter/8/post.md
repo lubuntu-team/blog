@@ -17,6 +17,10 @@ This week was focused on polishing the installer experience and the desktop in g
 
 ## Infrastructure and Project Changes
 
+### Lubuntu Blog
+
+The official Lubuntu blog is now [being kept](https://phab.lubuntu.me/source/blog/) under Git in our Phabricator instance. All blog posts from here on out will be written in Markdown and then published using the scripts there.
+
 ### Phabricator
 
 ### Miscellaneous
