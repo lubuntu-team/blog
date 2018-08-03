@@ -65,6 +65,8 @@ def updatepost(infoyaml, md, post=None, title=None, slug=None):
     if not slug:
         slug = infoyaml["slug"]
 
+    title = title.replace("POUND", "#")
+
     post.title = title
     post.content = md
     post.post_status = "publish"
@@ -84,7 +86,7 @@ def main():
 
         post = None
         for post in posts:
-            if post.title == infoyaml["title"]:
+            if post.title == infoyaml["title"].replace("POUND", "#"):
                 updatepost(post=post, title=post.title, infoyaml=infoyaml, md=md)
                 post = True
                 break
