@@ -1,7 +1,5 @@
 Gracias al gran trabajo de nuestros colaboradores, nos complace anunciar que se ha lanzado Lubuntu 16.04.5 LTS.
 
-Anuncio
-
 # ¿Qué es Lubuntu?
 Lubuntu es un sabor oficial de Ubuntu que utiliza el entorno de escritorio Lightweight X11 (LXDE). El objetivo del proyecto es proporcionar una distribución de Linux ligera pero funcional basada en la sólida base de Ubuntu. Lubuntu se dirige específicamente a máquinas antiguas con pocos recursos, pero también funciona muy bien en hardware nuevo. Junto con una interfaz gráfica de usuario sencilla pero fácil de usar, Lubuntu viene con una amplia variedad de aplicaciones seleccionadas por su reducido tamaño para que pueda navegar, enviar correos electrónicos, chatear, jugar y ser productivo.
 
