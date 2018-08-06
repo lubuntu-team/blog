@@ -37,21 +37,21 @@ Huge thanks to [UBports](https://ubports.com/) for contributing financially to a
     - [Upstream commit.](https://github.com/lxqt/qterminal/commit/14b1ee093b6712c4d3e1b6fe832ba353afa3d35a)
  - Move the file dialog from the LXQt Qt Plugin to LibFM-Qt for better platform integration.
     - LibFM-Qt:
-       - [Upstream pull request.](https://github.com/lxqt/libfm-qt/pull/243)
-       - [Upstream commit.](https://github.com/lxqt/libfm-qt/commit/da5966a5f36bd927cffdfc790da4a96cd5568083)
-       - [Packaging commit.](https://phab.lubuntu.me/rLIBFMQTPACKAGING19fd5f3c8be72f799ddb966f68e84bb5521b416c)
+        - [Upstream pull request.](https://github.com/lxqt/libfm-qt/pull/243)
+        - [Upstream commit.](https://github.com/lxqt/libfm-qt/commit/da5966a5f36bd927cffdfc790da4a96cd5568083)
+        - [Packaging commit.](https://phab.lubuntu.me/rLIBFMQTPACKAGING19fd5f3c8be72f799ddb966f68e84bb5521b416c)
     - LXQt Qt Plugin:
-       - [Upstream pull request.](https://github.com/lxqt/lxqt-qtplugin/pull/39)
-       - [Upstream commit.](https://github.com/lxqt/lxqt-qtplugin/commit/73d20ab01995ca869f8d967535d4969409b22ec3)
-       - [Packaging commit.](https://phab.lubuntu.me/rLXQTQTPLUGINPACKAGING0144765ce2217c62aa69d170369c980e6d9e8e26)
+        - [Upstream pull request.](https://github.com/lxqt/lxqt-qtplugin/pull/39)
+        - [Upstream commit.](https://github.com/lxqt/lxqt-qtplugin/commit/73d20ab01995ca869f8d967535d4969409b22ec3)
+        - [Packaging commit.](https://phab.lubuntu.me/rLXQTQTPLUGINPACKAGING0144765ce2217c62aa69d170369c980e6d9e8e26)
  - Add the ability to set GTK themes from within the LXQt Appearance Configuration.
-   - [Upstream pull request.](https://github.com/lxqt/lxqt-config/pull/244)
-   - [Packaging commit.](https://phab.lubuntu.me/rLXQTCONFIGPACKAGINGae2282e219fa929077a3ebddf9aa79f8df023bff)
+    - [Upstream pull request.](https://github.com/lxqt/lxqt-config/pull/244)
+    - [Packaging commit.](https://phab.lubuntu.me/rLXQTCONFIGPACKAGINGae2282e219fa929077a3ebddf9aa79f8df023bff)
 
 ### Calamares
 
  - We [replaced](https://phab.lubuntu.me/rCALASETTINGS88e201e0c82eda4438f78ad949b25a43409556a2) some awfully complex one-liners with more robust lines, thanks to KDE Neon.
-   - This also fixed Calamares so it can be installed on BIOS, non-secure boot UEFI, and secure boot UEFI computers, something that was not previously possible.
+    - This also fixed Calamares so it can be installed on BIOS, non-secure boot UEFI, and secure boot UEFI computers, something that was not previously possible.
  - [By default](https://phab.lubuntu.me/rCALASETTINGSec8d1863c8ae49a73cff15547aa773e02d953dfa), GRUB is now installed to `/boot/efi/EFI/ubuntu` instead of `/boot/efi/EFI/lubuntu`.
  - [Make](https://phab.lubuntu.me/rCALASETTINGS912a94ead53188a2f222e3d72a2f8d5e553b7373) `/bin/bash` the default shell.
 
@@ -64,8 +64,8 @@ Huge thanks to [UBports](https://ubports.com/) for contributing financially to a
 ### Miscellaneous
 
  - [SDDM 0.18.0](https://github.com/sddm/sddm/releases/tag/v0.18.0) has been uploaded to Debian Sid and Ubuntu Cosmic.
-   - Packaging changes were made to make it easier for other Ubuntu flavors and derivatives. Instead of hardcoding the Breeze theme in, we now have a theming system in Ubuntu very similar to Debian's, where a package can install their SDDM theme into the ubuntu-theme directory in a postinst script.
-   - This fixes CVE-2018-14345; we're looking into cherry-picking this patch into previous stable Ubuntu releases.
+    - Packaging changes were made to make it easier for other Ubuntu flavors and derivatives. Instead of hardcoding the Breeze theme in, we now have a theming system in Ubuntu very similar to Debian's, where a package can install their SDDM theme into the ubuntu-theme directory in a postinst script.
+    - This fixes CVE-2018-14345; we're looking into cherry-picking this patch into previous stable Ubuntu releases.
  - Thanks to [Nate Graham](https://pointieststick.wordpress.com/) for [the pointer](https://phabricator.kde.org/T9244), we backported fix for [a bug](https://bugreports.qt.io/browse/QTBUG-66036) which visually affected KDE-based programs under HiDPI screens.
 
 ## Infrastructure and Project Changes
@@ -96,9 +96,6 @@ As always, feedback is appreciated.
  - [Custom partition mount point not kept with "OK"; kept with <Enter>](https://bugs.launchpad.net/ubuntu/+source/calamares/+bug/1773608)
  - [sddm will not start lxqt desktop correctly](https://pad.lv/1781392)
 
-## Solved / Marked as invalid/duplicate
-
-
 ## Solved
 
  - [Lubuntu 18.10 lxqt-panel - 2 Notifications on log-in: 2 shortcuts "cannot be registered"](https://pad.lv/1781511)
@@ -119,6 +116,7 @@ We have [a Weblate instance](https://translate.lubuntu.me/projects/) available f
 Do you speak a language that isn't available to translate there? Let us know in the comments or [elsewhere](https://lubuntu.me/links/) and we will add that language.
 
 Here are the translators who have contributed so far:
+
  - Henrik Christiansen (Danish)
  - Hans P. Möller (German, Spanish)
  - Daniel Absmeier (German)
