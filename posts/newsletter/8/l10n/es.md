@@ -121,13 +121,13 @@ Tenemos [una instancia de Weblate](https://translate.lubuntu.me/projects/) dispo
 
 Aquí están los traductores que han contribuido hasta ahora:
 
- - Henrik Christiansen (danés)
- - Hans P. Möller (alemán, español)
- - Daniel Absmeier (alemán)
- - Luís Rafael Gomes (portugués)
- - Lucas A. V. Dantas (portugués (Brasil))
- - Marcin Mikołajczak (polaco)
- - Tony Cuesta Escobar (catalán)
+ - Henrik Christiansen (danés)
+ - Hans P. Möller (alemán, español)
+ - Daniel Absmeier (alemán)
+ - Luís Rafael Gomes (portugués)
+ - Lucas A. V. Dantas (portugués (Brasil))
+ - Marcin Mikołajczak (polaco)
+ - Tony Cuesta Escobar (catalán)
 
 ¡Esta semana hemos agregado "Norwegian Bokmål"! Gracias a Einar Mostad por traducir.
 
