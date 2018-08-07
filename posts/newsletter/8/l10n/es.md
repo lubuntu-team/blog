@@ -27,7 +27,6 @@ Esta transición también se está haciendo en Debian Sid.
     - [Cometido de Upstream.](https://github.com/lxqt/lxqt-panel/commit/41259bb4a9c58876e68337a287d968b4ed9fb7e4)
     - [Informe de errores de Upstream.](Https://github.com/lxqt/lxqt/issues/1520)
     - Si algo está sonando demasiado alto en su ordenador, ahora puede silenciar el volumen, cambiarlo y activarlo, sin que el volumen se mantenga en silencio mientras lo está cambiando.
-
 - Configuración por defecto:
     - [Quitar / usr / compartir / aplicaciones; estos archivos son nativos en LXQt.](https://phab.lubuntu.me/rDEFAULTSETTINGS758e4746525465c15c1cc7cfec2ba7c38b182d90)
     - [No inicie un gestor de archivos con Ctrl + Alt + D, porque eso ya muestra el escritorio en LXQt.](Https://phab.lubuntu.me/rDEFAULTSETTINGS804d49dfc6350f0c16fd19ec2b44f5b9964191db)
