@@ -17,6 +17,7 @@ These statistics brought much internal debate within the Lubuntu team, but we de
 In essence, this is leveraging something we have always done with Lubuntu; providing an operating system which users can use to revive their old computers, but bringing this to the age of modern computing.
 
 For the forseeable future, here are our core goals:
+
  - Lubuntu will leverage modern, Qt-based technologies and programs to give users a functional yet modular experience.
  - In collaboration with others, Lubuntu will continue to be a transparent and open distribution which makes it a priority to keep the community informed about the development when possible.
  - Lubuntu will create and maintain complete documentation which will be included by default in the operating system, and can guide anyone from beginner to expert on how to use Lubuntu to its full potential and contribute to the further development of it.
