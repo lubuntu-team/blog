@@ -24,9 +24,9 @@ Esta transición también se está haciendo en Debian Sid.
 #### Experiencia de escritorio
 
  - [LXPanel-Qt: no reinicia automáticamente el volumen cuando se modifica.](Https://phab.lubuntu.me/rLXQTPANELPACKAGING9635deb67b79e0483f89baa61b855428b688913b)
-    - [Cometido de Upstream.](https://github.com/lxqt/lxqt-panel/commit/41259bb4a9c58876e68337a287d968b4ed9fb7e4)
-    - [Informe de errores de Upstream.](Https://github.com/lxqt/lxqt/issues/1520)
-    - Si algo está sonando demasiado alto en su ordenador, ahora puede silenciar el volumen, cambiarlo y activarlo, sin que el volumen se mantenga en silencio mientras lo está cambiando.
+    - [Cometido de Upstream.](https://github.com/lxqt/lxqt-panel/commit/41259bb4a9c58876e68337a287d968b4ed9fb7e4)
+    - [Informe de errores de Upstream.](Https://github.com/lxqt/lxqt/issues/1520)
+    - Si algo está sonando demasiado alto en su ordenador, ahora puede silenciar el volumen, cambiarlo y activarlo, sin que el volumen se mantenga en silencio mientras lo está cambiando.
 
 - Configuración por defecto:
     - [Quitar / usr / compartir / aplicaciones; estos archivos son nativos en LXQt.](https://phab.lubuntu.me/rDEFAULTSETTINGS758e4746525465c15c1cc7cfec2ba7c38b182d90)
