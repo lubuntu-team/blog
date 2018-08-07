@@ -7,12 +7,14 @@ Aquí está el octavo número de Esta Semana en el Desarrollo de Lubuntu. Puedes
 ## General
 
 [¡Se ha lanzado Lubuntu 18.04.1!](Https://lubuntu.me/bionic-1-released/)
+
 [¡Se ha lanzado Lubuntu 16.04.5!](Https://lubuntu.me/xenial-5-released/)
+
 [Estamos tomando un nuevo rumbo.](Https://lubuntu.me/taking-a-new-direction/)
 
 Las últimas semanas nos hemos centrado en pulir la experiencia de escritorio y en algunos cambios importantes en la infraestructura del proyecto.
 
-Desafortunadamente, muchas de las correcciones en las que hemos estado trabajando están siendo bloqueadas por la transición  a Qt 5.11.1 que está en curso. Se ha subido todo a cosmic-proposed, donde se esperan pruebas automatizadas antes de que sea generalmente instalable. Más detalles técnicos sobre ese proceso están disponibles [aquí](https://wiki.ubuntu.com/ProposedMigration).
+Desafortunadamente, muchas de las correcciones en las que hemos estado trabajando están siendo bloqueadas por la transición a Qt 5.11.1 que está en curso. Se ha subido todo a cosmic-proposed, donde se esperan pruebas automatizadas antes de que sea generalmente instalable. Más detalles técnicos sobre ese proceso están disponibles [aquí](https://wiki.ubuntu.com/ProposedMigration).
 
 Esta transición también se está haciendo en Debian Sid.
 
@@ -21,10 +23,10 @@ Esta transición también se está haciendo en Debian Sid.
 
 #### Experiencia de escritorio
 
-  - [LXPanel-Qt: no reinicia automáticamente el volumen cuando se modifica.](Https://phab.lubuntu.me/rLXQTPANELPACKAGING9635deb67b79e0483f89baa61b855428b688913b)
-     - [Cometido de Upstream.](https://github.com/lxqt/lxqt-panel/commit/41259bb4a9c58876e68337a287d968b4ed9fb7e4)
-     - [Informe de errores de Upstream.](Https://github.com/lxqt/lxqt/issues/1520)
-     - Si algo está sonando demasiado alto en su ordenador, ahora puede silenciar el volumen, cambiarlo y activarlo, sin que el volumen se mantenga en silencio mientras lo está cambiando.
+ - [LXPanel-Qt: no reinicia automáticamente el volumen cuando se modifica.](Https://phab.lubuntu.me/rLXQTPANELPACKAGING9635deb67b79e0483f89baa61b855428b688913b)
+    - [Cometido de Upstream.](https://github.com/lxqt/lxqt-panel/commit/41259bb4a9c58876e68337a287d968b4ed9fb7e4)
+    - [Informe de errores de Upstream.](Https://github.com/lxqt/lxqt/issues/1520)
+    - Si algo está sonando demasiado alto en su ordenador, ahora puede silenciar el volumen, cambiarlo y activarlo, sin que el volumen se mantenga en silencio mientras lo está cambiando.
 
 - Configuración por defecto:
     - [Quitar / usr / compartir / aplicaciones; estos archivos son nativos en LXQt.](https://phab.lubuntu.me/rDEFAULTSETTINGS758e4746525465c15c1cc7cfec2ba7c38b182d90)
@@ -54,8 +56,8 @@ Esta transición también se está haciendo en Debian Sid.
 
   - Hemos [reemplazado](https://phab.lubuntu.me/rCALASETTINGS88e201e0c82eda4438f78ad949b25a43409556a2) algunas líneas terriblemente complejas por otras mejores, gracias a KDE Neon.
     - Esto también solucionó un problema de Calamares, por lo que ahora se puede instalar en BIOS, UEFI en modo no seguro y en modo UEFI seguro, algo que antes no era posible.
-  - [Predeterminado](https://phab.lubuntu.me/rCALASETTINGSec8d1863c8ae49a73cff15547aa773e02d953dfa), GRUB ahora está instalado en `/ boot / efi / EFI / ubuntu` en lugar de` / boot / efi / EFI / lubuntu`.
-  - [Hacer](https://phab.lubuntu.me/rCALASETTINGS912a94ead53188a2f222e3d72a2f8d5e553b7373) `/ bin / bash` el shell predeterminado.
+  - [Predeterminado](https://phab.lubuntu.me/rCALASETTINGSec8d1863c8ae49a73cff15547aa773e02d953dfa), GRUB ahora está instalado en `/boot/efi/EFI/ubuntu` en lugar de `/boot/efi/EFI/lubuntu`.
+  - [Hacer](https://phab.lubuntu.me/rCALASETTINGS912a94ead53188a2f222e3d72a2f8d5e553b7373) `/bin/bash` el shell predeterminado.
 
 ### Lubuntu Seed
 
@@ -98,16 +100,12 @@ Como siempre, se agradecerán comentarios.
  - [Punto de montaje de una partición personalizada no se guarda con "OK"; se guarda con Enter](https://bugs.launchpad.net/ubuntu/+source/calamares/+bug/1773608)
  - [sddm no se inicia correctamente en el escritorio lxqt](https://pad.lv/1781392)
 
-## Resuelto / Marcado como inválido / duplicado
-
-
 ## Resuelto
 
  - [Lubuntu 18.10 lxqt-panel - 2 notificaciones al iniciar sesión: 2 accesos directos "no se pueden registrar"](https://pad.lv/1781511)
  - [Calamares falla en modo UEFI después de un comando externo en Lubuntu Cosmic](https://pad.lv/1781015)
 
-
-##¿Quiere ayudar?
+## ¿Quiere ayudar?
 
 Una de las maneras más fáciles de involucrarse con Lubuntu y ayudarnos a hacer que este lanzamiento sea el mejor es probar Lubuntu y reportar errores.
 
@@ -122,6 +120,7 @@ Tenemos [una instancia de Weblate](https://translate.lubuntu.me/projects/) dispo
 ¿Hablas un idioma que no está disponible para traducir allí? Háganoslo saber en los comentarios o [en otro lugar](https://lubuntu.me/links/) y agregaremos ese idioma.
 
 Aquí están los traductores que han contribuido hasta ahora:
+
  - Henrik Christiansen (danés)
  - Hans P. Möller (alemán, español)
  - Daniel Absmeier (alemán)
@@ -134,7 +133,7 @@ Aquí están los traductores que han contribuido hasta ahora:
 
 ¡Gracias por vuestras valiosas contribuciones!
 
-## grupo español
+## Grupo español
 
 ¡Tenemos [un grupo Oficial de Lubuntu en español en Telegram](https://t.me/lubuntues) que tiene tantos miembros como [nuestro grupo de desarrollo (en inglés)](https://t.me/lubuntudevel) en el momento de escribir esto!
 
@@ -150,9 +149,9 @@ Puede dejar de esperar funciones el 23 de agosto de 2018 cuando se active el con
 
 Estas son algunas de las principales características específicas de Lubuntu que se puede esperar antes del lanzamiento:
 
-  - Los comienzos de un centro de bienvenida (más detalles próximamente).
-  - Mejoras en Calamares, que incluye un módulo adicional para instalar más paquetes.
-  - Un plan para reemplazar Openbox, el administrador de ventanas actual usado en Lubuntu.
+ - Los comienzos de un centro de bienvenida (más detalles próximamente).
+ - Mejoras en Calamares, que incluye un módulo adicional para instalar más paquetes.
+ - Un plan para reemplazar Openbox, el administrador de ventanas actual usado en Lubuntu.
 
 Nuestro equipo artístico todavía está trabajando en Lenny, y le haremos saber cuándo tendremos a Lenny Cuttlefish. :)
 
@@ -160,15 +159,12 @@ Nuestro equipo artístico todavía está trabajando en Lenny, y le haremos saber
 
 Esta sección es para resaltar la cobertura excepcional de Lubuntu desde el último número.
 
-##En inglés
+## En inglés
 
-- [Lubuntu 18.10 podría admitir PC de 32 bits si hay la suficiente demanda, así es cómo puede ayudar](https://news.softpedia.com/news/lubuntu-18-10-may-support-32-bit-pcs-if -all-s-demand-here-s-how-you-can-help-521998.shtml)
-
-- [Los futuros lanzamientos de Lubuntu no se enfocarán en PC obsoletos, ofrecerán un sistema operativo Linux modular](https://news.softpedia.com/news/future-lubuntu-releases-won-t-focus-on-old-pcs -will-offer-a-modular-linux-os-522141.shtml)
+ - [Lubuntu 18.10 podría admitir PC de 32 bits si hay la suficiente demanda, así es cómo puede ayudar](https://news.softpedia.com/news/lubuntu-18-10-may-support-32-bit-pcs-if -all-s-demand-here-s-how-you-can-help-521998.shtml)
+ - [Los futuros lanzamientos de Lubuntu no se enfocarán en PC obsoletos, ofrecerán un sistema operativo Linux modular](https://news.softpedia.com/news/future-lubuntu-releases-won-t-focus-on-old-pcs -will-offer-a-modular-linux-os-522141.shtml)
  - [Lubuntu basado en Ubuntu Linux ya no se centrará en el hardware obsoleto después de mudarse a LXQt](https://betanews.com/2018/07/30/ubuntu-linux-lubuntu-old-lxqt/)
- 
  - [Destination Linux EP81 - Canonical Fanboys (la cobertura comienza a las 26:24)](https://www.youtube.com/watch?v=7xlY0GQ-XvY)
-
 
 ## En español
 
