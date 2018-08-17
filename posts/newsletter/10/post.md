@@ -30,6 +30,8 @@ We have [a Weblate instance](https://translate.lubuntu.me/projects/) available f
 
 Do you speak a language that isn't available to translate there? Let us know in the comments or [elsewhere](https://lubuntu.me/links/) and we will add that language.
 
+This week, we had several people translate Lubuntu! Emanuele Antonio Faraone translated into Italian, Carl Schwan into French, and Hans P. Möller into German! Thank you!
+
 Here are the translators who have contributed so far:
 
  - Henrik Christiansen (Danish)
@@ -40,6 +42,8 @@ Here are the translators who have contributed so far:
  - Marcin Mikołajczak (Polish)
  - Tony Cuesta Escobar (Catalan)
  - Einar Mostad (Norwegian Bokmål)
+ - Emanuele Antonio Faraone (Italian)
+ - Carl Schwan (French)
 
 Thank you for your valuable contributions!
 
