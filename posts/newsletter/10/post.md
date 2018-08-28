@@ -47,7 +47,7 @@ We are looking for people with a particular interest in maintaining and inspirin
 
 If nobody steps up to help administer these groups, we are likely to shut them down within the next month or so. We will be happy to train whoever is interested.
 
-Also, we are opening our support and offtopic Telegram groups to the public. **Please note that the following links are temporary and may change at any time; feel free to ask us in the main development channel if these links change for the updated ones.** [Support](https://t.me/joinchat/DH6s1ELAZusx_9mFamoScg), [offtopic](https://t.me/joinchat/DH6s1EKjxEYc6M3YGRGt-Q). These links will become available on [our main links page](https://lubuntu.me/links/) within the coming days.
+Also, we are opening our support and offtopic Telegram groups to the public. **Please note that the following links are temporary and may change at any time; feel free to ask us in the main development channel for the updated ones if these links change.** [Support](https://t.me/joinchat/DH6s1ELAZusx_9mFamoScg), [offtopic](https://t.me/joinchat/DH6s1EKjxEYc6M3YGRGt-Q). These links will become available on [our main links page](https://lubuntu.me/links/) within the coming days.
 
 ### Answering Questions About Wayland
 
@@ -59,7 +59,7 @@ In the last newsletter we announced that we are going to switch to Wayland via M
 **Q:** Why choose Mir instead of wlroots?
 **A:** Mir has support for NVIDIA graphics cards figured out, while wlroots does not. A core principle of Lubuntu is to not break the operating system if we can help it. That also goes for support for a very popular graphics card brand. Here is a comment that Chris Halse Rogers from the Mir team left on the last blog post that is worth highlighting:
 
-> About NVIDIA support: this PR has just been merged, fixing the eglstream-kms platform (which supports NVIDIA, when you turn on the modesetting support in the NVIDIA driver).
+> About NVIDIA support: [this PR](https://github.com/MirServer/mir/pull/415) has just been merged, fixing the eglstream-kms platform (which supports NVIDIA, when you turn on the modesetting support in the NVIDIA driver).
 >
 > It does not yet support GL clients, but the extensions are in place and that's one of the next things on my list.
 
