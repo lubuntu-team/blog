@@ -59,13 +59,15 @@ En el último boletín informativo anunciamos que vamos a cambiar a Wayland vía
 ** P: ** ¿Por qué elegir Mir en lugar de wlroots?
 ** R: ** Mir es compatible con tarjetas gráficas NVIDIA, mientras que wlroots no. Un principio principal de Lubuntu es no romper el sistema operativo si podemos evitarlo. Eso también sirve para dar soporte a una marca de tarjetas gráficas muy popular. Aquí hay un comentario que Chris Halse Rogers del equipo Mir dejó en la última publicación del blog que vale la pena destacar:
 
-> Acerca del soporte de NVIDIA: [este PR](https://github.com/MirServer/mir/pull/415) acaba de fusionarse, arreglando la plataforma eglstream-kms (que es compatible con NVIDIA, cuando activa el soporte de modos en el controlador NVIDIA).
+> Acerca del soporte de NVIDIA: [este PR](https://github.com/MirServer/mir/pull/415) acaba de fusionarse, arreglando la plataforma 
+eglstream-kms (que es compatible con NVIDIA, cuando se activa el soporte de modos en el controlador NVIDIA).
 >
-> Todavía no admite clientes GL, pero las extensiones están en su lugar y esa es una de las siguientes cosas en mi lista.
+> Todavía no admite clientes GL, pero las extensiones están en su lugar y esa es una de    las siguientes cosas en mi lista.
 
 Además, Alan Griffiths del equipo Mir respondió a un comentario que preguntaba sobre escritorios remotos, diciendo:
 
-> Esto es algo a lo que cada compositor de Wayland tiene que enfrentarse, sucederá y se consensuará.
+> Esto es algo a lo que cada compositor de Wayland tiene que enfrentarse, 
+sucederá y se consensuará.
 >
 > Desde la perspectiva de Mir, el equipo principal aún no ha llegado a esto. Sin embargo, conozco un par de esfuerzos de la comunidad en ese aspecto:
 > https://github.com/MirServer/mir/issues/467
@@ -147,4 +149,4 @@ Siéntase libre de [unirse al grupo Destination Linux en Telegram](https://t.me/
 
 Síganos en [Twitter](https://twitter.com/LubuntuOfficial) para obtener las últimas actualizaciones de Lubuntu. ¿No usas Twitter porque no es software libre? ¡No problemo! Síganos en [Mastodon](https://mastodon.technology/@lubuntu) donde se publica el mismo contenido.
 
-No dude en ponerse en contacto con nosotros [aquí](https://lubuntu.me/links/) para obtener asistencia, y para fines de prensa / marketing o si tiene una consulta privada, puede ponerse en contacto con el Jefe de Lanzamiento Simon Quigley [aquí] (mailto: tsimonq2@lubuntu.me).
+No dude en ponerse en contacto con nosotros [aquí](https://lubuntu.me/links/) para obtener asistencia, y para fines de prensa / marketing o si tiene una consulta privada, puede ponerse en contacto con el Jefe de Lanzamiento Simon Quigley [aquí](mailto: tsimonq2@lubuntu.me).
