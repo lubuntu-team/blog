@@ -10,7 +10,7 @@ This list is a bit short because we have been focusing on general, behind-the-sc
 
 ### Desktop Experience
 
-We have swapped out VLC for SMPlayer, LXImage-Qt for Nomacs, and the KDE 5 LibreOffice frontend instead of the older KDE 4 frontend. We are working on installer slideshow updates to reflect these changes.
+We have swapped out SMPlayer for VLC, Nomacs for LXImage-Qt, and the KDE 5 LibreOffice frontend instead of the older KDE 4 frontend. We are working on installer slideshow updates to reflect these changes.
 
 Walter Lapchynski is working on packaging Trojitá; that will be done soon.
 
