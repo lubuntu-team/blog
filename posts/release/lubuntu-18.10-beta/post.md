@@ -36,4 +36,4 @@ Don't want to file a bug? [Let us know](https://lubuntu.me/links/) what the prob
 
 We [publish a newsletter](https://lubuntu.me/category/newsletter/) usually every week which details the work that is currently happening in Lubuntu, including fixed bugs and additional ways you can help.
 
-For the latest Lubuntu information and announcements follow us on [Twitter](https://twitter.com/LubuntuOfficial), [Mastodon](https://mastodon.technology/@lubuntu), or [Telegram](https://t.me/LubuntuOfficial).
+For the latest Lubuntu information and announcements follow us on [Twitter](https://twitter.com/LubuntuOfficial), [Mastodon](https://mastodon.technology/@lubuntu), or [Telegram](https://t.me/LubuntuOfficial). We have other social media pages and ways to stay connected which you can find [here](https://lubuntu.me/links/).
