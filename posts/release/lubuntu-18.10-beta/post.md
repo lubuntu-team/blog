@@ -24,6 +24,21 @@ Lubuntu is an official Ubuntu flavor which uses the Lightweight Qt Desktop Envir
 
 You can download the Lubuntu Cosmic Cuttlefish Beta on [our downloads page](https://lubuntu.me/downloads/).
 
+# Known Issues
+
+We have [a list of issues](https://phab.lubuntu.me/T53) we plan on addressing prior to the release, but there are several flavor-generic bugs we have been made aware of **but have not tested ourselves**; please do let us know if you can reproduce those with Lubuntu!
+
+ - The ISO [could fail to boot](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/1792932) under VirtualBox.
+ - Plymouth [could be crashing](https://bugs.launchpad.net/ubuntu/+source/gdm3/+bug/1794280) on reboots.
+
+# Lenny Cuttlefish
+
+Here he is!
+
+<a href="https://wiki.ubuntu.com/Lubuntu/Marketing/Lenny?action=AttachFile&do=get&target=lennyfish.svg"><img src="https://lubuntu.me/wp-content/uploads/2018/09/lennyfish.png" height="150em" /></a>
+
+Lenny has been Lubuntu's friendly mascot since the beginning, and for most releases, we have taken the Ubuntu mascot and fused it with Lenny to make it its own unique and fun release-specific creature. Thanks to the Lubuntu Artwork Team for your work in continuing a long standing Lubuntu tradition!
+
 # Would you like to help?
 
 We can always use more help! No matter your skill level, there's likely something you can help with that can make a huge difference in Lubuntu. Feel free to [join](https://lubuntu.me/links/) us on Telegram (which is bridged three ways to Matrix, Telegram, and IRC) and talk to us there. Whether you know another language, have some spare time to help us [test](https://phab.lubuntu.me/w/testing/) Lubuntu, are good at writing documentation, or just want to stay "in the know," that is the place to be.
