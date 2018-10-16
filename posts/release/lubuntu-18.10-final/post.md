@@ -15,6 +15,7 @@ This is the first Lubuntu release with LXQt as the main desktop environment. The
  - VLC 3.0.4, for viewing media and listening to music.
  - Featherpad 0.9.0, for notes and code editing.
  - Discover Software Center 5.13.5, for an easy, graphical way to install and update software.
+ - The powerful and fast email client Trojitá 0.7 to get you to inbox zero in no time.
 
 You can find a variety of other applications installed which aim to enhance your experience while staying out of the way of your normal workflow.
 
@@ -32,15 +33,23 @@ You can download Lubuntu 18.10 on [our downloads page](https://lubuntu.me/downlo
 
 LXQt treats all monitors as one when painting the desktop background. We plan on solving this in a more native way by the 19.04 release, but in the meantime, Lubuntu contributor Hans P. Möller has written [a script](https://git.launchpad.net/~hmollercl/stitchwp/tree/stitchWP.sh) which can be used as a workaround for treating all of the backgrounds differently.
 
-We have not ported over the "Additional drivers" tab from software-properties-gtk to software-properties-qt, which can be used for installing additional CPU and graphics drivers. As a workaround, you can install the `kubuntu-driver-manager` package which will provide this functionality.
+We have not ported over the "Additional drivers" tab from software-properties-gtk to software-properties-qt, which can be used for installing additional CPU and graphics drivers. As a workaround, you can use the `ubuntu-drivers` command line tool.
 
 ## Issues with fixes
 
-The default LibreOffice theme that ships on the ISOs is the default Adwaita theme, which is not consistent with the system theme. However, if you update the LibreOffice package immediately after installing Lubuntu, this issue will be fixed.
+The default LibreOffice theme that ships on the ISOs is the default Adwaita theme, which is not consistent with the system theme. However, if you update the LibreOffice package immediately after installing Lubuntu, this issue will be fixed (in version 1:6.1.2-0ubuntu2).
+
+Trojitá has display issues with some emails related to a QtWebkit issue. However, if you update the package immediately after installation, the issue will be fixed (in version 5.212.0~alpha2-12ubuntu2).
+
+## Known issues
+
+Trojitá will crash if sorted and resorted several times in succession (LP: #[1797665](https://bugs.launchpad.net/ubuntu/+source/trojita/+bug/1797665)).
+
+Qterminal dropdown shortcut key does not consistently toggle visibility (LP: #[1795998](https://bugs.launchpad.net/ubuntu/+source/qterminal/+bug/1795998)).
 
 # Would you like to help?
 
-We can always use more help! No matter your skill level, there's likely something you can help with that can make a huge difference in Lubuntu. Feel free to [join](https://lubuntu.me/links/) us on Telegram (which is bridged three ways to Matrix, Telegram, and IRC) and talk to us there. Whether you know another language, have some spare time to help us [test](https://phab.lubuntu.me/w/testing/) Lubuntu, are good at writing documentation, or just want to stay "in the know," that is the place to be.
+We can always use more help! No matter your skill level, there's something you can help with that can make a huge difference in Lubuntu. [Join](https://lubuntu.me/links/) us on our chat which is bridged three ways to Matrix, Telegram, and IRC and talk to us there. Whether you know another language, have some spare time to help us [test](https://phab.lubuntu.me/w/testing/) Lubuntu, are good at writing documentation, or just want to stay "in the know," that is the place to be.
 
 Another great method to get involved is bug reporting. If you notice an issue please [file a bug](https://bugs.launchpad.net/lubuntu/+filebug) and tag it with "lubuntu".
 
