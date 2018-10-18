@@ -37,9 +37,11 @@ We have not ported over the "Additional drivers" tab from software-properties-gt
 
 ## Issues with fixes
 
-The default LibreOffice theme that ships on the ISOs is the default Adwaita theme, which is not consistent with the system theme. However, if you update the LibreOffice package immediately after installing Lubuntu, this issue will be fixed (in version 1:6.1.2-0ubuntu2).
+The default LibreOffice theme that ships on the ISOs is the default Adwaita theme, which is not consistent with the system theme. This will be fixed in version 1:6.1.2-0ubuntu2.
 
-Trojitá has display issues with some emails related to a QtWebkit issue. However, if you update the package immediately after installation, the issue will be fixed (in version 5.212.0~alpha2-12ubuntu2).
+Trojitá has display issues with some emails related to a QtWebkit issue. This will be fixed in version 5.212.0~alpha2-12ubuntu2.
+
+Both of the above fixes should come within the next few days after release.
 
 ## Known issues
 
