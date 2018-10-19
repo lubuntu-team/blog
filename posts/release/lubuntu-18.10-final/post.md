@@ -110,7 +110,7 @@ We would like to thank the following contributors for dedicating some of their t
  - [Samuel Banya](http://www.musimatic.net/)
  - [Hans Möller](https://twitter.com/hpmoller)
  - [Tony Cuesta Escobar (Wolfenprey)](https://twitter.com/Wolfen48K)
- - Dan Simmons
+ - [Dan Simmons](https://mastodon.technology/@kc2bez)
  - Many more contributors!
 
 It is not possible to donate to Lubuntu as a project at this time, but if you are feeling generous and would like to donate to individual contributors, here are people who have made donation links public:
