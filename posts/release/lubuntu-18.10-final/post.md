@@ -26,11 +26,7 @@ You can find a variety of other applications installed which aim to enhance your
 
 ## Calamares
 
-Lubuntu has switched to using the [Calamares](https://calamares.io/) system installer in place of the Ubiquity installer that other flavors use. There were several advantages to choosing Calamares as our installer:
-
- - Calamares features a modern, C++-based codebase with a Qt 5 frontend.
- - Customization of the installation experience is easier, as the installer is module-based, and code can be written in Python or C++ while cleanly and elegantly sharing elements like translations, global variables, etc.
- - It allows us to work with other projects to solve common problems in a way that is clean and works in many cases, leading to cleaner code.
+Lubuntu has switched to using the [Calamares](https://calamares.io/) system installer in place of the Ubiquity installer that other flavors use. Calamares is a universal installer framework that aims to be easy, usable, beautiful, pragmatic, inclusive, and distribution-agnostic.
 
 In this cycle our main focus was working out any issues that arose from the switch in installer, especially around the Ubuntu tooling which is geared towards the use of Ubiquity, so it lacks features such as the minimal install, but in the next cycle we are going to put an emphasis on improving feature parity.
 
@@ -54,7 +50,7 @@ Throughout this cycle, Lubuntu has started a Spanish community for Spanish speak
 
 If you speak Spanish and want to join a friendly community of Linux people with all levels of technical experience, the Lubuntu Spanish community is for you. You can join the Telegram group at [telegram.lubuntu.me/español](https://telegram.lubuntu.me/español) or the IRC channel at #lubuntu-es on freenode.
 
-Thanks to [Wolfenprey](https://twitter.com/Wolfen48K), [GatoOscuro](https://gatooscuro7.wordpress.com/), [Hans Möller](https://twitter.com/hpmoller), and many, many other great community members which make this possible. 
+Thanks to [Wolfenprey](https://twitter.com/Wolfen48K), [GatoOscuro](https://gatooscuro7.wordpress.com/), [Hans Möller](https://twitter.com/hpmoller), and many, many other great community members which make this possible.
 
 # Where can I download it?
 
@@ -63,6 +59,8 @@ You can download Lubuntu 18.10 on [our downloads page](https://lubuntu.me/downlo
 # Known Issues and Workarounds
 
 ## Issues with workarounds
+
+**The most major and notable problem is that upgrading Lubuntu from 18.04 to 18.10 causes a fair amount of issues.** Therefore, **we are not officially supporting this upgrade path at this time**, however we have prepared [a page in the Lubuntu Manual](https://manual.lubuntu.me/D/upgrading.html) which can help address the problems that arise after the upgrade.
 
 LXQt treats all monitors as one when painting the desktop background. We plan on solving this in a more native way by the 19.04 release, but in the meantime, Lubuntu contributor Hans P. Möller has written [a script](https://git.launchpad.net/~hmollercl/stitchwp/tree/stitchWP.sh) which can be used as a workaround for treating all of the backgrounds differently.
 
@@ -74,21 +72,49 @@ The default LibreOffice theme that ships on the ISOs is the default Adwaita them
 
 Trojitá has display issues with some emails related to a QtWebkit issue. This will be fixed in version 5.212.0~alpha2-12ubuntu2.
 
-Both of the above fixes should come within the next week after release.
+Both of the above fixes should come as updates within the next week.
 
 ## Known issues
 
 Trojitá will crash if sorted and resorted several times in succession (LP: #[1797665](https://bugs.launchpad.net/ubuntu/+source/trojita/+bug/1797665)).
 
-Qterminal dropdown shortcut key does not consistently toggle visibility (LP: #[1795998](https://bugs.launchpad.net/ubuntu/+source/qterminal/+bug/1795998)).
+QTerminal dropdown shortcut key does not consistently toggle visibility (LP: #[1795998](https://bugs.launchpad.net/ubuntu/+source/qterminal/+bug/1795998)).
 
-# Would you like to help?
+# Contributing to Lubuntu
+
+## Summary on how to help
 
 We can always use more help! **No matter your skill level or your technical experience, there's something you can help with that can make a huge difference in Lubuntu.** [Join](https://lubuntu.me/links/) us on our chat which is bridged three ways to Matrix, Telegram, and IRC and talk to us there. Whether you know another language, have some spare time to help us [test](https://phab.lubuntu.me/w/testing/) Lubuntu, are good at writing documentation, or just want to stay "in the know," that is the place to be.
 
-Another great method to get involved is bug reporting. If you notice an issue please [file a bug](https://bugs.launchpad.net/lubuntu/+filebug) and tag it with "lubuntu".
+Another great method to get involved is bug reporting. If you notice an issue please file a bug using [the instructions on the Lubuntu Wiki](https://phab.lubuntu.me/w/bugs/).
 
-Don't want to file a bug? [Let us know](https://lubuntu.me/links/) what the problem is (in detail, enough that we can reproduce it) and we can assist you in filing one.
+Don't want to file a bug? [Let us know](https://lubuntu.me/links/) what the problem is (in detail, enough that we can reproduce it) and we can assist you in filing one or do it ourselves.
+
+## Infrastructure changes in this cycle
+
+Lubuntu has moved off of GitHub and mostly off of Launchpad for the project's workflow. We have decided to go with [Phabricator](https://phacility.com/phabricator/), which is a project hosting platform with all of the main features you expect from competitors such as GitLab. You can find our Phabricator instance [here](https://phab.lubuntu.me/).
+
+Additionally, for translations, where possible we use a [Weblate](https://weblate.org) instance, which you can find [here](https://translate.lubuntu.me/languages/). You can also find upstream LXQt's Weblate instance [here](https://weblate.lxqt.org/); we highly encourage people who know more than one language fluently to translate Lubuntu and LXQt so everyone benefits.
+
+## New contributors
+
+We would like to thank the following contributors for dedicating some of their time to Lubuntu this cycle. Thank you!
+
+ - [Simon Quigley](https://twitter.com/tsimonquigley2)
+ - [Walter Lapchynski](https://soc.ialis.me/@wxl)
+ - [Lyn Perrine](https://phab.lubuntu.me/p/lynorian/)
+ - Rafael Laguna, who has resigned from the project. Thank you for your countless contributions to the project!
+ - [Wendy Hill](https://www.wendyhillphoto.com/)
+ - [Samuel Banya](http://www.musimatic.net/)
+ - [Hans Möller](https://twitter.com/hpmoller)
+ - [Tony Cuesta Escobar (Wolfenprey)](https://twitter.com/Wolfen48K)
+ - Dan Simmons
+ - Many more contributors!
+
+It is not possible to donate to Lubuntu as a project at this time, but if you are feeling generous and would like to donate to individual contributors, here are people who have made donation links public:
+
+ - [Simon Quigley](https://www.patreon.com/tsimonq2)
+ - [Walter Lapchynski](https://www.paypal.com/donate/?token=XhZBN4w32pnCuTbIjGnsxPn7pAk_a5_FMofe_9MN8Mzqsx9Nji-OVU4ImAqoekPhScCSoW&country.x=US&locale.x=US)
 
 # Stay Connected!
 
