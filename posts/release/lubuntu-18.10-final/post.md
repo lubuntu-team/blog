@@ -80,6 +80,8 @@ Trojitá will crash if sorted and resorted several times in succession (LP: #[17
 
 QTerminal dropdown shortcut key does not consistently toggle visibility (LP: #[1795998](https://bugs.launchpad.net/ubuntu/+source/qterminal/+bug/1795998)).
 
+The only non-Ubiquity issue that affects all Ubuntu flavors (and main Ubuntu) is that DNS stops working after disconnecting from a VPN due to systemd-resolved (LP: #[1797415](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1797415)).
+
 # Contributing to Lubuntu
 
 ## Summary on how to help
