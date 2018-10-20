@@ -10,7 +10,7 @@ Lubuntu es un sabor oficial de Ubuntu que utiliza el Lightweight Qt Desktop Envi
 
 # Bienvenido a LXQt
 
-<img style="float: center; width: 33%;" src="https://phab.lubuntu.me/file/data/zwng7o6qanhvvucgajdc/PHID-FILE-djx4vzahriz23c5622vu/Screenshot_20181007_Desktop.png" />
+<img style="float: center; width: 500em;" src="https://phab.lubuntu.me/file/data/zwng7o6qanhvvucgajdc/PHID-FILE-djx4vzahriz23c5622vu/Screenshot_20181007_Desktop.png" />
 
 Esta es la primera versión de Lubuntu con LXQt como entorno de escritorio principal. El proyecto Lubuntu, en 18.10 y versiones sucesivas, ya no será compatible con el entorno de escritorio LXDE ni con las herramientas del archivo Ubuntu sino que se centrará en el entorno de escritorio LXQt. Puede encontrar las siguientes aplicaciones y conjuntos de herramientas principales instalados de forma predeterminada en esta versión:
 
@@ -20,7 +20,7 @@ Esta es la primera versión de Lubuntu con LXQt como entorno de escritorio princ
  - La suite LibreOffice 6.1.2, con la interfaz Qt 5.
  - VLC 3.0.4, para ver medios y escuchar música.
  - Featherpad 0.9.0, para la edición de notas y códigos.
- - Descubra Software Center 5.13.5, para una manera fácil y gráfica de instalar y actualizar el software.
+ - Discover Software Center 5.13.5, para una manera fácil y gráfica de instalar y actualizar el software.
  - El potente y rápido cliente de correo electrónico Trojitá 0.7 para llegar a la bandeja de entrada cero en un abrir y cerrar de ojos.
 
 Usted puede encontrar una variedad de otras aplicaciones instaladas que tienen como objetivo mejorar su experiencia mientras se mantiene fuera del camino de su flujo de trabajo normal.
@@ -37,7 +37,7 @@ Gracias a Adriaan de Groot y a muchos otros miembros del equipo de Calamares; si
 
 ## Manual de Lubuntu
 
-El equipo de Lubuntu ha trabajado arduamente en el pulido de un libro del Manual de Lubuntu para facilitar a los usuarios nuevos y experimentados el uso más productivo de su sistema. El libro se puede encontrar en [manual.lubuntu.me](https://manual.lubuntu.me/).
+El equipo de Lubuntu ha trabajado arduamente en el pulido de un Manual de Lubuntu para facilitar a los usuarios nuevos y experimentados el uso más productivo de su sistema. El libro se puede encontrar en [manual.lubuntu.me](https://manual.lubuntu.me/).
 
 Eventualmente lo enviaremos en la instalación por defecto de Lubuntu, pero por ahora nuestro objetivo es pulirlo y recibir comentarios de la comunidad, por lo que permanecerá publicado como un sitio web sólo por ahora.
 
@@ -63,7 +63,7 @@ Puede descargar Lubuntu 18.10 en [nuestra página de descargas](https://lubuntu.
 
 El problema más importante y notable es que al actualizar Lubuntu de 18.04 a 18.10 causa una buena cantidad de problemas. Por lo tanto,no estamos apoyando oficialmente este camino de actualización en este momento, sin embargo, hemos preparado [una página en el Manual de Lubuntu](https://manual.lubuntu.me/D/upgrading.html) que puede ayudar a resolver los problemas que surgen después de la actualización.
 
-LXQt trata todos los monitores como uno solo cuando pinta el fondo de escritorio. Planeamos resolver esto de una manera más nativa para la versión 19.04, pero mientras tanto, el colaborador de Lubuntu Hans Möller ha escrito[un guión](https://git.launchpad.net/~hmollercl/stitchwp/tree/stitchWP.sh) que puede ser usado como una solución para tratar todos los fondos de forma diferente.
+LXQt trata todos los monitores como uno solo cuando pinta el fondo de escritorio. Planeamos resolver esto de una manera más nativa para la versión 19.04, pero mientras tanto, el colaborador de Lubuntu Hans Möller ha escrito [un script](https://git.launchpad.net/~hmollercl/stitchwp/tree/stitchWP.sh) que puede ser usado como una solución para tratar todos los fondos de forma diferente.
 
 No hemos transferido la pestaña «Controladores adicionales» de software-properties-gtk a software-properties-qt, que puede utilizarse para instalar controladores adicionales de CPU y gráficos. Como solución provisional, puede utilizar la herramienta de línea de comandos «ubuntu-drivers».
 
@@ -77,11 +77,11 @@ Ambos de los arreglos anteriores deben venir como actualizaciones dentro de la p
 
 ## Problemas conocidos
 
-Trojitá se estrellará si es ordenado y recurrido varias veces en sucesión (LP: #[1797665](https://bugs.launchpad.net/ubuntu/+source/trojita/+bug/1797665)).
+Trojitá se cae si es ordenado y reordenado varias veces de manera sucesiva (LP: #[1797665](https://bugs.launchpad.net/ubuntu/+source/trojita/+bug/1797665)).
 
 La tecla de acceso directo del menú desplegable de QTerminal no cambia constantemente la visibilidad (LP: #[1795998](https://bugs.launchpad.net/ubuntu/+source/qterminal/+bug/1795998)).
 
-El único problema no relacionado con la Ubuntu que afecta a todos los sabores de Ubuntu (y al principal Ubuntu) es que los DNS dejan de funcionar después de desconectarse de una VPN debido a la resolución del sistema (LP: #[1797415](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1797415)).
+El único problema no relacionado con Ubiquity que afecta a todos los sabores de Ubuntu (y al principal Ubuntu) es que los DNS dejan de funcionar después de desconectarse de una VPN debido a la resolución del sistema (LP: #[1797415](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1797415)).
 
 # Contribuyendo a Lubuntu
 
@@ -89,7 +89,7 @@ El único problema no relacionado con la Ubuntu que afecta a todos los sabores d
 
 Otro gran método para involucrarse es el reporte de errores. Si observa un problema, por favor, rellene el formulario de error usando [las instrucciones en el Wiki de Lubuntu](https://phab.lubuntu.me/w/bugs/).
 
-¿No quieres poner un micrófono? [Háganos saber](https://lubuntu.me/links/) cuál es el problema (en detalle, lo suficiente como para que podamos reproducirlo) y podemos ayudarlo a presentar uno o hacerlo nosotros mismos.
+¿No quieres reportar un error? [Háganos saber](https://lubuntu.me/links/) cuál es el problema (en detalle, lo suficiente como para que podamos reproducirlo) y podemos ayudarlo a presentar uno o hacerlo nosotros mismos.
 
 ## La infraestructura cambia en este ciclo
 
