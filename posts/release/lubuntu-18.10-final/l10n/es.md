@@ -106,7 +106,7 @@ Además, para las traducciones, siempre que sea posible utilizamos una instancia
  - [Wendy Hill](https://www.wendyhillphoto.com/)
  - [Samuel Banya](http://www.musimatic.net/)
  - [Hans Möller](https://twitter.com/hpmoller)
- - [Tony Cuesta Escobar (Wolfenprey)] (https://twitter.com/Wolfen48K)
+ - [Tony Cuesta Escobar (Wolfenprey)](https://twitter.com/Wolfen48K)
  - [Dan Simmons](https://mastodon.technology/@kc2bez)
  - Muchos más contribuyentes!
 
