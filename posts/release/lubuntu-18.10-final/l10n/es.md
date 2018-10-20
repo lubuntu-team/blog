@@ -15,7 +15,6 @@ Esta es la primera versión de Lubuntu con LXQt como entorno de escritorio princ
  - LXQt 0.13.0, con muchas correcciones y mejoras soportadas desde la versión anterior.
  - Qt 5.11.1, que es el primer lanzamiento de punto en la serie Qt 5.11.
  - Mozilla Firefox 62, que recibirá actualizaciones del equipo de seguridad de Ubuntu durante todo el ciclo de soporte de la versión.
- - Trojitá 0.7, un cliente de correo electrónico ligero y eficiente basado en Qt.
  - La suite LibreOffice 6.1.2, con la interfaz Qt 5.
  - VLC 3.0.4, para ver medios y escuchar música.
  - Featherpad 0.9.0, para la edición de notas y códigos.
