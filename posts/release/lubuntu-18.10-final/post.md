@@ -136,7 +136,7 @@ As promised [on Twitter](https://twitter.com/LubuntuOfficial/status/105006844700
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="und" dir="ltr"> <a href="https://t.co/gmleH5b6nw">pic.twitter.com/gmleH5b6nw</a></p>&mdash; N0um3n0 (@Cryptodata) <a href="https://twitter.com/Cryptodata/status/1051536066421944330?ref_src=twsrc%5Etfw">October 14, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-And marneu, one of our newer [r/Lubuntu](https://www.reddit.com/r/Lubuntu/) moderators who uses Lubuntu 18.10 with the i3 window manager, submitted three screenshots: [one](https://i.imgur.com/ObmUloF.jpg), [two](https://i.imgur.com/r7yj5Wh.png), [three](https://i.imgur.com/A5WNmIM.png).
+Marneu, one of our newer [r/Lubuntu](https://www.reddit.com/r/Lubuntu/) moderators who uses Lubuntu 18.10 with the i3 window manager, submitted three screenshots: [one](https://i.imgur.com/ObmUloF.jpg), [two](https://i.imgur.com/r7yj5Wh.png), [three](https://i.imgur.com/A5WNmIM.png).
 
 And of course, while it doesn't count, Dustin Krysak did give us an [Ubuntu Budgie](https://ubuntubudgie.org/blog/2018/10/18/18-10-ubuntu-budgie-released) screenshot:
 
