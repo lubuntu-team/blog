@@ -1,5 +1,7 @@
 Gracias a todo el trabajo duro de nuestros colaboradores, Lubuntu 18.10 ha sido lanzado! Con el nombre en clave Cosmic Cuttlefish, Lubuntu 18.10 es la 15ª versión de Lubuntu y la primera versión de Lubuntu con LXQt como entorno de escritorio predeterminado, con soporte hasta julio de 2019.
 
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/CRgcsTQGvwU?ecver=2" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+
 NOTICE
 
 # ¿Qué es Lubuntu?
