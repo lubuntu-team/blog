@@ -116,7 +116,7 @@ def main():
 
         post = None
         for post in posts:
-            if post.title == infoyaml["title"].replace("POUND", "#"):
+            if post.title == infoyaml["title"].replace("POUND", "#").replace("COLON", ":"):
                 updatepost(post=post, title=post.title, infoyaml=infoyaml, md=md)
                 post = True
                 break
