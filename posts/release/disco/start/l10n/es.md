@@ -1,7 +1,5 @@
 El ciclo de desarrollo de [Disco Dingo](https://launchpad.net/ubuntu/disco) (el cual será el nombre en clave de la versión 19.04 de Ubuntu) ¡ha comenzado para el equipo de Lubuntu!
 
-NOTICE
-
 **ACTUALIZACIÓN:** Las imágenes diarias ya están disponibles en [nuestra página de descargas](https://lubuntu.me/downloads/), para los aventureros. También se está realizando una actualización a Perl 5.28 antes de la apertura.
 
 En el momento de redactar el presente informe, se han puesto en marcha los primeros elementos básicos del archivo y se están haciendo los preparativos para su apertura. En estos momentos el equipo de Ubuntu Foundations está trabajando en la preparación de una transición a Python 3.7 como versión por defecto, así como algunos cambios en el GCC y el trabajo de preparación habitual.
