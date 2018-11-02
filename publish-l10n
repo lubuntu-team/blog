@@ -61,7 +61,7 @@ def main():
                         html = open("l10n-template.html", "r", encoding="utf-8")
                         htmltext = html.read()
                         translatedtext = htmltext.replace("POSTCONTENT", md)
-                        translatedtext = translatedtext.replace("TITLE", infoyaml["title"].replace("POUND", "#"))
+                        translatedtext = translatedtext.replace("TITLE", infoyaml["title"].replace("POUND", "#").replace("COLON", ":"))
                         translatedtext = translatedtext.replace("SLUG", infoyaml["slug"])
 
                         l10nfile = open(slugdir + lang + "/index.html", "w")
