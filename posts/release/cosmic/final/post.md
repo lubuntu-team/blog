@@ -67,6 +67,8 @@ LXQt treats all monitors as one when painting the desktop background. We plan on
 
 We have not ported over the "Additional drivers" tab from software-properties-gtk to software-properties-qt, which can be used for installing additional CPU and graphics drivers. As a workaround, you can use the `ubuntu-drivers` command line tool.
 
+The installer enforces a minimum of 8GB free drive space and 1GB free RAM, but these are not truly the minimum requirements. Remove the "storage" and "ram" lines from the "required" section of /etc/calamares/modules/welcome.conf before running the installer and everything will proceed like normal.
+
 ## Issues with fixes
 
 The default LibreOffice theme that ships on the ISOs is the default Adwaita theme, which is not consistent with the system theme. This will be fixed in version 1:6.1.2-0ubuntu2.
