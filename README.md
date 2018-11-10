@@ -10,3 +10,5 @@ url:
 username:
 password:
 ```
+
+To update a blog post, run `./update-post PATH/TO/POST/DIR` after your credentials are in the YAML file. **Please only use the parent directory as an argument.**
