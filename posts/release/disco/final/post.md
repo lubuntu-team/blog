@@ -16,3 +16,4 @@ Applications
 ------------
 
  * usb-creator-kde shows the install popup after a few seconds of launching without any input; workaround available ([1629715](https://bugs.launchpad.net/ubuntu/+source/usb-creator/+bug/1629715))
+ * trojita segfaults when repeatedly sorting ([1797665](https://bugs.launchpad.net/ubuntu/+source/trojita/+bug/1797665))
