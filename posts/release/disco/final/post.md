@@ -11,3 +11,8 @@ Desktop Environment
 
  * lxqt-session allocates memory for process output never read ([1823416](https://bugs.launchpad.net/ubuntu/+source/lxqt-session/+bug/1823416))
  * using BROWSER environment variable to set default browser creates several problems; workaround available ([182654](https://bugs.launchpad.net/ubuntu/+source/lxqt-session/+bug/1824654))
+
+Applications
+------------
+
+ * usb-creator-kde shows the install popup after a few seconds of launching without any input; workaround available ([1629715](https://bugs.launchpad.net/ubuntu/+source/usb-creator/+bug/1629715))
