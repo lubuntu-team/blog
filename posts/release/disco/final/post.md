@@ -14,6 +14,7 @@ Desktop Environment
  * using BROWSER environment variable to set default browser creates several problems; workaround available ([182654](https://bugs.launchpad.net/ubuntu/+source/lxqt-session/+bug/1824654))
  * LXQt Arc theme + Breeze widgets hides menu scroll bar when searching ([1787734](https://bugs.launchpad.net/ubuntu/+source/lubuntu-artwork/+bug/1787734))
  * Multiple monitors wallpaper handled as only one big monitor ([1730411](https://bugs.launchpad.net/lxqt/+bug/1730411))
+ * Openbox shortcuts involving the Windows/Meta/Super key conflict with the use of that key to open the menu in lxqt-globalkeys; workaround available ([1802501](https://bugs.launchpad.net/ubuntu/+source/lubuntu-default-settings/+bug/1802501))
 
 Applications
 ------------
