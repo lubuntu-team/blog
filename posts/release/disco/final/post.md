@@ -16,6 +16,7 @@ Desktop Environment
  * LXQt Arc theme + Breeze widgets hides menu scroll bar when searching ([1787734](https://bugs.launchpad.net/ubuntu/+source/lubuntu-artwork/+bug/1787734))
  * Multiple monitors wallpaper handled as only one big monitor ([1730411](https://bugs.launchpad.net/lxqt/+bug/1730411))
  * Openbox shortcuts involving the Windows/Meta/Super key conflict with the use of that key to open the menu in lxqt-globalkeys; workaround available ([1802501](https://bugs.launchpad.net/ubuntu/+source/lubuntu-default-settings/+bug/1802501))
+ * Sensors Widget forgets custom colors when re-opening the Configure Panel window ([1812826](https://bugs.launchpad.net/lxqt/+bug/1812826)
 
 Applications
 ------------
