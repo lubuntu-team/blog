@@ -6,6 +6,7 @@ Installer
 
  * apparently unexpected order in language selection on welcome module ([1801498](https://bugs.launchpad.net/calamares/+bug/1801498))
  * Lubuntu doesn't have a "minimal install" option in the installer; workaround available ([1769473](https://bugs.launchpad.net/ubuntu/+source/calamares-settings-ubuntu/+bug/1769473))
+ * no clear indication that format has been selected ([1773610](https://bugs.launchpad.net/calamares/+bug/1773610)
 
 Desktop Environment
 -------------------
