@@ -19,3 +19,4 @@ Applications
  * usb-creator-kde shows the install popup after a few seconds of launching without any input; workaround available ([1629715](https://bugs.launchpad.net/ubuntu/+source/usb-creator/+bug/1629715))
  * trojita segfaults when repeatedly sorting ([1797665](https://bugs.launchpad.net/ubuntu/+source/trojita/+bug/1797665))
  * qterminal dropdown shortcut key does not consistently toggle visibility ([1795998](https://bugs.launchpad.net/ubuntu/+source/qterminal/+bug/1795998))
+ * nm-tray is missing a native Qt UI for editing connections ([1782579](https://bugs.launchpad.net/nm-tray/+bug/1782579))
