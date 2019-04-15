@@ -29,9 +29,9 @@ Lubuntu uses the [Calamares](https://calamares.io/) system installer in place of
 
 Our focus in this cycle was on fixing the automatic full-disk encryption, especially on UEFI systems.
 
-**Note:** In case of full-disk encryption, unlike the other flavors, Calamares does not create a separate, unencrypted */boot* partition. Therefore, LUKS version 1 is the default, so that Grub can decrypt the partition.
+**Note:** In case of full-disk encryption, unlike the other flavors, Calamares does not create a separate, unencrypted */boot* partition. Therefore, LUKS 1 is the default, so that GRUB 2 can decrypt the partition. This is because GRUB 2 [does not have support for LUKS 2](https://savannah.gnu.org/bugs/?55093) and Ubuntu switched to it by default in this release.
 
-The minimum RAM requirements has been lowered to 0.5 GiB of RAM. (The RAM consumption is around 300-400 MiB after startup).
+The minimum RAM requirement has been lowered to 0.5 GiB of RAM. (The RAM consumption is around 300-400 MB after startup).
 
 ## Lubuntu Manual
 
