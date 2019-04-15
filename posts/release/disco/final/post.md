@@ -1,3 +1,75 @@
+Thanks to all the hard work from our contributors, Lubuntu 19.04 has been released! With the codename Disco Dingo, Lubuntu 19.04 is the 16th release of Lubuntu and the second release of Lubuntu with LXQt as the default desktop environment.
+
+# Support lifespan
+
+Lubuntu 19.04 will be supported for 9 months, until January 2020. If you need Long Term Support, it is recommended you use Lubuntu 18.04 LTS instead (with LXDE), which will be supported for 3 years, until April 2021.
+
+Older Lubuntu versions have reached their end of life and are not supported anymore.
+
+# What is Lubuntu?
+
+Lubuntu is an official Ubuntu flavor which uses the Lightweight Qt Desktop Environment (LXQt). The project’s goal is to provide a lightweight yet functional Linux distribution based on a rock-solid Ubuntu base. Lubuntu provides a simple but modern and powerful graphical user interface, and comes with a wide variety of applications so you can browse, email, chat, play, and be productive.
+
+This is the second Lubuntu release with LXQt as the main desktop environment. The Lubuntu project, in 18.10 and successive releases, will no longer support the LXDE desktop environment or tools in the Ubuntu archive, and will instead focus on the LXQt desktop environment. You can find the following major applications and toolkits installed by default in this release:
+
+ - LXQt 0.14.1, with many bugfixes and improvements backported from upstream.
+ - Qt 5.12.2.
+ - Mozilla Firefox 66, which will receive updates from the Ubuntu Security Team throughout the support cycle of the release.
+ - The LibreOffice 6.2.2 suite, with the Qt 5 frontend.
+ - VLC 3.0.6, for viewing media and listening to music.
+ - Featherpad 0.9.3, for notes and code editing.
+ - Discover Software Center 5.15.4, for an easy, graphical way to install and update software.
+ - The powerful and fast email client Trojitá 0.7 to get you to inbox zero in no time.
+
+You can find a variety of other applications installed which aim to enhance your experience while staying out of the way of your normal workflow.
+
+## Calamares
+
+Lubuntu uses the [Calamares](https://calamares.io/) system installer in place of the Ubiquity installer that other flavors use.
+
+Our focus in this cycle was on fixing the automatic full-disk encryption, especially on UEFI systems.
+
+**Note:** In case of full-disk encryption, unlike the other flavors, Calamares does not create a separate, unencrypted */boot* partition. Therefore, LUKS version 1 is the default, so that Grub can decrypt the partition.
+
+The minimum RAM requirements has been lowered to 0.5 GiB of RAM. (The RAM consumption is around 300-400 MiB after startup).
+
+## Lubuntu Manual
+
+The Lubuntu Team has been hard at work in polishing a Lubuntu Manual book to make it easy for new and experienced users alike to use their system more productively. The book can be found at [manual.lubuntu.me](https://manual.lubuntu.me/).
+
+We want to thank Lyn Perrine for all the hard work she has put into the Lubuntu Manual recently, because the majority of the text in the manual right now is what she has written. Thank you!
+
+# Where can I download it?
+
+You can download Lubuntu 19.04 on [our downloads page](https://lubuntu.me/downloads).
+
+# Contributing to Lubuntu
+
+## Summary on how to help
+
+We can always use more help! **No matter your skill level or your technical experience, there's something you can help with that can make a huge difference in Lubuntu.** [Join](https://lubuntu.me/links/) us on our chat which is bridged three ways to Matrix, Telegram, and IRC and talk to us there. Whether you know another language, have some spare time to help us test Lubuntu, are good at writing documentation, or just want to stay "in the know," that is the place to be.
+
+Another great method to get involved is bug reporting. If you notice an issue please file a bug using [the instructions on the Lubuntu Wiki](https://phab.lubuntu.me/w/bugs/).
+
+Don't want to file a bug? [Let us know](https://lubuntu.me/links/) what the problem is (in detail, enough that we can reproduce it) and we can assist you in filing one or do it ourselves.
+
+## Contributors
+
+We would like to thank the following contributors for dedicating some of their time to Lubuntu this cycle. Thank you!
+
+ - [Simon Quigley](https://twitter.com/tsimonquigley2)
+ - [Walter Lapchynski](https://polka.bike)
+ - [Lyn Perrine](https://phab.lubuntu.me/p/lynorian/)
+ - [Wendy Hill](https://www.wendyhillphoto.com/)
+ - [Samuel Banya](http://www.musimatic.net/)
+ - [Hans Möller](https://twitter.com/hpmoller)
+ - [Tony Cuesta Escobar (Wolfenprey)](https://twitter.com/Wolfen48K)
+ - [Dan Simmons](https://mastodon.technology/@kc2bez)
+ - Chris Guiver
+ - Raman Sarda
+ - Many more contributors!
+
+
 Known Bugs
 ==========
 
