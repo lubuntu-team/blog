@@ -23,15 +23,15 @@ This is the second Lubuntu release with LXQt as the main desktop environment. Th
 
 You can find a variety of other applications installed which aim to enhance your experience while staying out of the way of your normal workflow.
 
-## Calamares
+## Installer
 
 Lubuntu uses the [Calamares](https://calamares.io/) system installer in place of the Ubiquity installer that other flavors use.
 
-Our focus in this cycle was on fixing the automatic full-disk encryption, especially on UEFI systems.
+One notable feature in this release is working full-disk encryption. HUGE thanks to [Jonathan Carter](https://jonathancarter.org/) and [Dmitry Shachnev](https://mitya57.me) for helping this land.
 
 **Note:** In case of full-disk encryption, unlike the other flavors, Calamares does not create a separate, unencrypted */boot* partition. Therefore, LUKS 1 is the default, so that GRUB 2 can decrypt the partition. This is because GRUB 2 [does not have support for LUKS 2](https://savannah.gnu.org/bugs/?55093) and Ubuntu switched to it by default in this release.
 
-The minimum RAM requirement has been lowered to 0.5 GiB of RAM. (The RAM consumption is around 300-400 MB after startup).
+The minimum RAM requirement has been lowered to 0.5 GB of RAM. (The RAM consumption is around 300-400 MB after startup).
 
 ## Lubuntu Manual
 
