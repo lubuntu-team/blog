@@ -134,3 +134,4 @@ Applications
  * Trojita segfaults when repeatedly sorting ([1797665](https://bugs.launchpad.net/ubuntu/+source/trojita/+bug/1797665))
  * QTerminal dropdown shortcut key does not consistently toggle visibility ([1795998](https://bugs.launchpad.net/ubuntu/+source/qterminal/+bug/1795998))
  * nm-tray is missing a native Qt UI for editing connections ([1782579](https://bugs.launchpad.net/nm-tray/+bug/1782579))
+ * Lubuntu lacks an input method for Korean and other languages ([1810634](https://bugs.launchpad.net/ubuntu/+source/lubuntu-meta/+bug/1810634)
