@@ -58,7 +58,7 @@ You can download Lubuntu 19.04 on [our downloads page](https://lubuntu.me/downlo
 
 We can always use more help! **No matter your skill level or your technical experience, there's something you can help with that can make a huge difference in Lubuntu.** [Join](https://lubuntu.me/links/) us on our chat which is bridged three ways to Matrix, Telegram, and IRC and talk to us there. Whether you know another language, have some spare time to help us test Lubuntu, are good at writing documentation, or just want to stay "in the know," that is the place to be.
 
-Another great method to get involved is bug reporting. If you notice an issue please file a bug using [the instructions on the Lubuntu Wiki](https://phab.lubuntu.me/w/bugs/).
+Another great method to get involved is bug reporting. If you notice an issue, please file a bug using [the instructions on the Lubuntu Wiki](https://phab.lubuntu.me/w/bugs/).
 
 Don't want to file a bug? [Let us know](https://lubuntu.me/links/) what the problem is (in detail, enough that we can reproduce it) and we can assist you in filing one or do it ourselves.
 
