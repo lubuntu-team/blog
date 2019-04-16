@@ -102,6 +102,7 @@ We would like to thank the following contributors for dedicating some of their t
  - [Dan Simmons](https://mastodon.technology/@kc2bez)
  - [Chris Guiver](https://launchpad.net/~guiverc)
  - [Raman Sarda](https://theloudspeaker.home.blog/)
+ - [Thomas Ward](https://launchpad.net/~teward)
  - Many more contributors!
 
 
