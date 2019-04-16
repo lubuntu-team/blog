@@ -74,7 +74,7 @@ We would like to thank the following contributors for dedicating some of their t
  - [Hans Möller](https://twitter.com/hpmoller)
  - [Tony Cuesta Escobar (Wolfenprey)](https://twitter.com/Wolfen48K)
  - [Dan Simmons](https://mastodon.technology/@kc2bez)
- - Chris Guiver
+ - [Chris Guiver](https://launchpad.net/~guiverc)
  - Raman Sarda
  - Many more contributors!
 
