@@ -25,13 +25,22 @@ You can find a variety of other applications installed which aim to enhance your
 
 ## Installer
 
-Lubuntu uses the [Calamares](https://calamares.io/) system installer in place of the Ubiquity installer that other flavors use.
+Lubuntu uses the [Calamares](https://calamares.io/) system installer in place of the Ubiquity installer that other flavors use. 19.04 ships with Calamares 3.2.4, but the important fixes have been cherry-picked from 3.2.5 for stability.
 
 One notable feature in this release is working full-disk encryption. HUGE thanks to [Jonathan Carter](https://jonathancarter.org/) and [Dmitry Shachnev](https://mitya57.me) for helping this land.
 
 **Note:** In case of full-disk encryption, unlike the other flavors, Calamares does not create a separate, unencrypted */boot* partition. Therefore, LUKS 1 is the default, so that GRUB 2 can decrypt the partition. This is because GRUB 2 [does not have support for LUKS 2](https://savannah.gnu.org/bugs/?55093) and Ubuntu switched to it by default in this release.
 
-The minimum RAM requirement has been lowered to 0.5 GB of RAM. (The RAM consumption is around 300-400 MB after startup).
+Some notable upstream features and fixes include:
+
+  - Easier customization of Calamares configurations using XDG configuration variables.
+  - The default fullscreen mode can now be set.
+  - RAID devices are now supported in the partitioner.
+  - The Austrian keymap is now properly handled.
+
+For a full description of the new features and fixes, see the upstream announcements for [3.2.3](https://calamares.io/calamares-3.2.3-is-out/) and [3.2.4](https://calamares.io/calamares-3.2.4-is-out/).
+
+Lastly, due to popular demand, the minimum RAM requirement has been lowered to 0.5 GB of RAM. (The RAM consumption is around 300-400 MB after startup).
 
 ## Lubuntu Manual
 
