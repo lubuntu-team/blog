@@ -12,7 +12,7 @@ Lubuntu is an official Ubuntu flavor which uses the Lightweight Qt Desktop Envir
 
 This is the second Lubuntu release with LXQt as the main desktop environment. The Lubuntu project, in 18.10 and successive releases, will no longer support the LXDE desktop environment or tools in the Ubuntu archive, and will instead focus on the LXQt desktop environment. You can find the following major applications and toolkits installed by default in this release:
 
- - LXQt 0.14.1, with many bugfixes and improvements backported from upstream.
+ - LXQt 0.14.1.
  - Qt 5.12.2.
  - Mozilla Firefox 66, which will receive updates from the Ubuntu Security Team throughout the support cycle of the release.
  - The LibreOffice 6.2.2 suite, with the Qt 5 frontend.
@@ -41,6 +41,32 @@ Some notable upstream features and fixes include:
 For a full description of the new features and fixes, see the upstream announcements for [3.2.3](https://calamares.io/calamares-3.2.3-is-out/) and [3.2.4](https://calamares.io/calamares-3.2.4-is-out/).
 
 Lastly, due to popular demand, the minimum RAM requirement has been lowered to 0.5 GB of RAM. (The RAM consumption is around 300-400 MB after startup).
+
+## Desktop Environment
+
+Lubuntu 19.04 ships with the latest release of the LXQt desktop environment, [0.14.1](https://lxqt.org/release/2019/02/26/lxqt-0141/). Some notable features and fixes in this release include:
+
+  - File manager/desktop icons:
+    - Trash, Home, Computer, and Network icons have been added to the desktop for easy accessibility.
+    - Hidden icons are now shadowed.
+    - Split view has been implemented.
+    - Allow full names to be shown instead of only display names.
+    - Fixed view icons with HiDPI scaling.
+    - Theme icons are preferred for view actions.
+  - Image viewer:
+    - An image's EXIF data can now be rendered.
+    - A confirmation dialog is now present when using "Save as" without a file extension.
+    - Added ImgBB as an upload provider.
+    - Added the ability to annotate images.
+    - Added a copy button to the upload dialog.
+  - Terminal:
+    - Margins have been added.
+    - History-based tab switching has been implemented.
+  - GTK Appearance settings have now been upstreamed.
+  - Touchpad settings have been vastly improved.
+  - Notification history has been implemented for persistent notifications.
+  - Various security improvements for the LXQt sudo authenticator module.
+  - MANY translation updates and other bugfixes.
 
 ## Lubuntu Manual
 
