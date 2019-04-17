@@ -109,6 +109,8 @@ We would like to thank the following contributors for dedicating some of their t
 Known Bugs
 ==========
 
+Please also check the [known bugs reported in the Ubuntu Release Notes](https://wiki.ubuntu.com/DiscoDingo/ReleaseNotes#Known_issues) for more common bugs affecting all Ubuntu flavors.
+
 Installer
 ---------
 
