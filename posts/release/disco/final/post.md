@@ -115,7 +115,7 @@ Installer
  * Apparently unexpected order in language selection on welcome module ([1801498](https://bugs.launchpad.net/calamares/+bug/1801498))
  * Lubuntu doesn't have a "minimal install" option in the installer ([1769473](https://bugs.launchpad.net/ubuntu/+source/calamares-settings-ubuntu/+bug/1769473)); //workaround available//
  * No clear indication that format has been selected ([1773610](https://bugs.launchpad.net/calamares/+bug/1773610)
- * Summary window expands, cutting off buttons with 800x600 screen ([1824758](https://bugs.launchpad.net/calamares/+bug/1824758)
+ * Summary window expands, cutting off buttons with 800x600 screen ([1824758](https://bugs.launchpad.net/calamares/+bug/1824758))
 
 Desktop Environment
 -------------------
@@ -125,7 +125,7 @@ Desktop Environment
  * LXQt Arc theme + Breeze widgets hides menu scroll bar when searching ([1787734](https://bugs.launchpad.net/ubuntu/+source/lubuntu-artwork/+bug/1787734))
  * Multiple monitors wallpaper handled as only one big monitor ([1730411](https://bugs.launchpad.net/lxqt/+bug/1730411))
  * Openbox shortcuts involving the Windows/Meta/Super key conflict with the use of that key to open the menu in lxqt-globalkeys ([1802501](https://bugs.launchpad.net/ubuntu/+source/lubuntu-default-settings/+bug/1802501)); //workaround available//
- * Sensors Widget forgets custom colors when re-opening the Configure Panel window ([1812826](https://bugs.launchpad.net/lxqt/+bug/1812826)
+ * Sensors Widget forgets custom colors when re-opening the Configure Panel window ([1812826](https://bugs.launchpad.net/lxqt/+bug/1812826))
 
 Applications
 ------------
