@@ -118,6 +118,7 @@ Installer
  * Lubuntu doesn't have a "minimal install" option in the installer ([1769473](https://bugs.launchpad.net/ubuntu/+source/calamares-settings-ubuntu/+bug/1769473)); //workaround available//
  * No clear indication that format has been selected ([1773610](https://bugs.launchpad.net/calamares/+bug/1773610))
  * Summary window expands, cutting off buttons with 800x600 screen ([1824758](https://bugs.launchpad.net/calamares/+bug/1824758))
+ * Calamares installer lacks a way to install proprietary drivers ([1825286](https://bugs.launchpad.net/ubuntu/+source/calamares-settings-ubuntu/+bug/1825286)); //workaround available//
 
 Desktop Environment
 -------------------
