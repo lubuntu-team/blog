@@ -4,7 +4,7 @@ Thanks to all the hard work from our contributors, Lubuntu 19.04 has been releas
 
 Lubuntu 19.04 will be supported for 9 months, until January 2020. If you need Long Term Support, it is recommended you [use Lubuntu 18.04 LTS instead](https://lubuntu.me/downloads/) (with LXDE), which will be supported for 3 years, until April 2021.
 
-Older Lubuntu versions have reached their end of life and are not supported anymore, with the exception of 18.04, which is supported until April 2021, and 18.10, which is supported until August 2019.
+Older Lubuntu versions have reached their end of life and are not supported anymore, with the exception of 18.04, which is supported until April 2021, and 18.10, which is supported until July 2019.
 
 # What is Lubuntu?
 
