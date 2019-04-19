@@ -1,5 +1,7 @@
 Thanks to all the hard work from our contributors, Lubuntu 19.04 has been released! With the codename Disco Dingo, Lubuntu 19.04 is the 16th release of Lubuntu and the second release of Lubuntu with LXQt as the default desktop environment.
 
+NOTICE
+
 # Support lifespan
 
 Lubuntu 19.04 will be supported for 9 months, until January 2020. If you need Long Term Support, it is recommended you [use Lubuntu 18.04 LTS instead](https://lubuntu.me/downloads/) (with LXDE), which will be supported for 3 years, until April 2021.
