@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git remote fetch;
+git remote update;
 POSTS=$(git diff --name-only master origin/master | grep "posts/" | sed "s/\/l10n*//g" | sed "s/\/post.md//g" | sed "s/\/info.yaml//g");
 git pull;
 
