@@ -1,5 +1,9 @@
 #!/bin/bash
 
-for post in `cat post-list`; do
+git remote fetch;
+POSTS=$(git diff --name-only master origin/master | grep "posts/" | sed "s/\/l10n*//g" | sed "s/\/post.md//g" | sed "s/\/info.yaml//g");
+git pull;
+
+for post in $POSTS; do
     ./update-post $post;
 done
