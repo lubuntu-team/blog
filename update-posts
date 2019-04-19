@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for post in `cat post-list`; do
+    ./update-post $post;
+done
